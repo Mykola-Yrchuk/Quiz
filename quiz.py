@@ -23,8 +23,11 @@ def get_unique_colors(n):
 
 progress = None
 timer_label = None
-root = None
 # ---------------- APP ----------------
+root = tk.Tk()
+root.title("Quiz App")
+root.geometry("520x720")
+root.configure(bg=BG_COLOR)
 
 current_lang = "pl"
 current_q, score, start_time = 0, 0, 0
@@ -488,13 +491,8 @@ def check(ans):
 
 # ---------------- START ----------------
 if __name__ == "__main__":
-    root = tk.Tk()
-    root.title("Quiz App")
-    root.geometry("520x720")
-    root.configure(bg=BG_COLOR)
-
     language_selection()
     root.mainloop()
 #--------------test--------------------
-def is_correct(answer, correct_answer):
-    return answer == correct_answer
+def is_correct(answer, correct):
+    return answer == correct
