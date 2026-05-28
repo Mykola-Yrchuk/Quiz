@@ -490,9 +490,9 @@ def check(ans):
     start_question_timer()
 
 # ---------------- START ----------------
-language_selection()
-root.mainloop()
-
+if __name__ == "__main__":
+    language_selection()
+    root.mainloop()
 #--------------test--------------------
 def is_correct(answer, correct):
     return answer == correct
