@@ -492,3 +492,7 @@ def check(ans):
 # ---------------- START ----------------
 language_selection()
 root.mainloop()
+
+#--------------test--------------------
+def is_correct(answer, correct):
+    return answer == correct
