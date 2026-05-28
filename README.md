@@ -2,6 +2,14 @@
 
 A colorful multi-language quiz game built with Python and Tkinter.
 
+---
+Docker Hub
+
+Docker image:
+
+https://hub.docker.com/r/beezb/quiz-app
+---
+
 This project includes:
 
 * 🌍 Multiple languages (English, Polish, Ukrainian)
