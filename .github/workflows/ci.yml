@@ -9,16 +9,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Клонировать репозиторий
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Установить Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Установить зависимости
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Запустить тесты
+      - name: Show files
+        run: ls -R
+
+      - name: Run tests
+        env:
+          PYTHONPATH: .
         run: pytest
