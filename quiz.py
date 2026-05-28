@@ -494,5 +494,5 @@ if __name__ == "__main__":
     language_selection()
     root.mainloop()
 #--------------test--------------------
-def is_correct(answer, correct):
-    return answer == correct
+def is_correct(answer, correct_answer):
+    return answer == correct_answer
