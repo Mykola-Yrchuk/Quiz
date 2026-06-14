@@ -1,100 +1,45 @@
 # 🎯 Quiz App
 
-A colorful multi-language quiz game built with Python and Tkinter.
+Wielojęzyczna gra quizowa stworzona w Pythonie przy użyciu biblioteki Tkinter.
 
----
-Docker Hub
+![GitHub Actions](https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПОЗИТОРИЙ/actions/workflows/main.yml/badge.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/beezb/quiz-app)
 
-Docker image:
+## 🌍 O projekcie
+Quiz App to interaktywna gra edukacyjna, która oferuje zabawę w trzech językach: angielskim, polskim i ukraińskim. Aplikacja zawiera różnorodne kategorie, system czasowy oraz rozbudowany system osiągnięć.
 
-https://hub.docker.com/r/beezb/quiz-app
----
+## 🚀 Automatyzacja i CI/CD
+Projekt wykorzystuje nowoczesne podejście DevOps:
+* **CI (Continuous Integration):** Automatyczne testy jednostkowe uruchamiane przy każdym `push` do gałęzi `main`.
+* **CD (Continuous Deployment):** Automatyczne budowanie obrazu Docker i publikacja na Docker Hub po pomyślnym przejściu testów.
 
-This project includes:
+## 📚 Funkcje
+* **Wsparcie językowe:** Angielski 🇬🇧, Polski 🇵🇱, Ukraiński 🇺🇦.
+* **Kategorie:** Matematyka, Natura, Logika, Bajki, Geografia, Sport.
+* **Rozgrywka:**
+    * Losowe pytania i pozycje odpowiedzi.
+    * 10-sekundowy licznik czasu na każde pytanie.
+    * Automatyczne pomijanie pytań po upływie czasu.
+    * Podsumowanie wyników i system nagród.
+* **Interfejs:** Nowoczesny, ciemny design z animacjami przycisków i paskiem postępu.
 
-* 🌍 Multiple languages (English, Polish, Ukrainian)
-* 📚 Several quiz categories
-* ⏱️ Timer system
-* 🏆 Achievement system
-* 🎨 Animated UI with colorful buttons
-* 📈 Progress bar tracking
+## 🏆 System Osiągnięć
+W zależności od wyniku, gracz może odblokować różne rangi:
+🏆 GOD MODE | 🔥 NEAR GENIUS | 👍 GOOD JOB | 🙂 NOT BAD | 😅 KEEP TRYING | 😂 TRY AGAIN BRO
 
----
-
-# 📸 Features
-
-## 🌐 Language Support
-
-* English 🇬🇧
-* Polish 🇵🇱
-* Ukrainian 🇺🇦
-
-## 📚 Categories
-
-* Mathematics
-* Nature
-* Logic
-* Fairy Tales
-* Geography
-* Sports
-
-## 🎮 Gameplay
-
-* Randomized questions
-* Randomized answer positions
-* 10-second timer for each question
-* Automatic question skip when time runs out
-* Final score summary
-* Achievement rewards based on score
-
----
-
-# 🖼️ UI Preview
-
-The application includes:
-
-* Dark modern interface
-* Hover animations
-* Colorful category buttons
-* Progress bar
-* Live countdown timer
-
----
-
-# ⚙️ Requirements
-
+## 🛠️ Technologie
 * Python 3.10+
-* Tkinter
+* Tkinter (GUI)
+* Docker
+* GitHub Actions (CI/CD)
 
----
+## 🐳 Uruchamianie przez Docker
+Aplikacja jest dostępna jako obraz Docker na Docker Hub. Aby pobrać i uruchomić aplikację:
 
-# 🏆 Achievements System
+1. Pobierz obraz:
+   ```bash
+   docker pull beezb/quiz-app:latest
+Uwaga: Aplikacja GUI wymaga środowiska graficznego do poprawnego wyświetlenia okna
+Projekt jest open-source i darmowy do użytku.
 
-Depending on your final score, players can unlock achievements such as:
-
-* 🏆 GOD MODE
-* 🔥 NEAR GENIUS
-* 👍 GOOD JOB
-* 🙂 NOT BAD
-* 😅 KEEP TRYING
-* 😂 TRY AGAIN BRO
-
-Localized achievements are available in all supported languages.
-
----
-
-# 🛠️ Technologies Used
-
-* Python
-* Tkinter
-* ttk
-* Random
-* Time
-
----
-
-# 📄 License
-
-This project is open-source and free to use.
-
----
+Projekt przygotowany na zajęcia z automatyzacji procesów oprogramowania.
