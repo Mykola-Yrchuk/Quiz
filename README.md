@@ -40,6 +40,7 @@ Aplikacja jest dostępna jako obraz Docker na Docker Hub. Aby pobrać i uruchomi
    ```bash
    docker pull beezb/quiz-app:latest
 Uruchom kontener:
+ff
 
 Bash
 docker run -it beezb/quiz-app:latest
