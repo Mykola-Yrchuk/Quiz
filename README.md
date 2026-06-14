@@ -2,7 +2,7 @@
 
 Wielojęzyczna gra quizowa stworzona w Pythonie przy użyciu biblioteki Tkinter.
 
-![GitHub Actions](https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПОЗИТОРИЙ/actions/workflows/main.yml/badge.svg)
+[![Python CI](https://github.com/Mykola-Yrchuk/Quiz/actions/workflows/main.yml/badge.svg)](https://github.com/Mykola-Yrchuk/Quiz/actions/workflows/main.yml)
 ![Docker Pulls](https://img.shields.io/docker/pulls/beezb/quiz-app)
 
 ## 🌍 O projekcie
@@ -39,7 +39,13 @@ Aplikacja jest dostępna jako obraz Docker na Docker Hub. Aby pobrać i uruchomi
 1. Pobierz obraz:
    ```bash
    docker pull beezb/quiz-app:latest
-Uwaga: Aplikacja GUI wymaga środowiska graficznego do poprawnego wyświetlenia okna
+Uruchom kontener:
+
+Bash
+docker run -it beezb/quiz-app:latest
+Uwaga: Aplikacja GUI wymaga środowiska graficznego do poprawnego wyświetlenia okna.
+
+📄 Licencja
 Projekt jest open-source i darmowy do użytku.
 
 Projekt przygotowany na zajęcia z automatyzacji procesów oprogramowania.
